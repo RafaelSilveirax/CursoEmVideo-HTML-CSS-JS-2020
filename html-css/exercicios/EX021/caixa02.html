@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groupoing Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        main{
+            background-color: turquoise;
+            padding: 10px;
+            margin: 10px;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        article{
+            background-color: lightblue;
+        }
+
+        article > aside{
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="Assuntos">
+
+        </section>
+
+        <section>
+            <article>
+                <h2>Brasil ta ruim</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos et voluptate animi natus corrupti ratione exercitationem nostrum, impedit eligendi delectus laudantium perspiciatis enim molestiae. Maxime quo necessitatibus rem nostrum ducimus.</p>
+                <aside>
+                    <p>Artigo Rafael</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    
+    <footer>
+        <p>Rafael Silveira</p>
+    </footer>
+</body>
+</html>
